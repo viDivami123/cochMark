@@ -1,0 +1,114 @@
+
+.cart-container{
+    width: 240px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Urbanist', sans-serif;
+}
+.cart-container .cart-product-offer-section{
+    height: 140px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.cart-container .cart-offer-box{
+    width: 78px;
+    height: 40px;
+    padding-top: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    top:71%;
+    left: 62%;
+    background-color: #EC187B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cart-container .cart-offer-box label:nth-child(1){
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.cart-container .cart-offer-box label:nth-child(2){
+    font-weight: 400;
+    color: white;
+}
+.cart-container .cart-offer-box label:nth-child(2) span{
+    font-size: 14px;
+}
+.cart-container .cart-description{
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.cart-container .cart-description .cart-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.cart-container .cart-product-image{
+    height: 140px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cart-description .cart-region-decs{
+    margin-top: 10px;
+}
+.cart-description .cart-region-decs label{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #383434;
+}
+.cart-amount-desc p{
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.cart-amount-desc  p label:nth-child(1){
+    font-size: 20px;
+    color: #EC187B;
+    font-weight: 300;
+    font-style: normal;
+}
+.cart-amount-desc  p label:nth-child(1) span{
+    font-size: 14px;
+}
+.cart-amount-desc  p label:nth-child(2){
+font-size: 14px;
+font-weight: 400;
+padding-top: 6px;
+text-decoration: line-through;
+color: #383434;
+text-decoration-thickness: 0.5px;
+text-decoration-color: #383434;
+}
+.cart-amount-desc .cart-suppliers{
+    font-style: italic;
+    font-size: 12px;
+    color: #383434;
+} .cart-container .cart-action{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.cart-container .cart-action div{
+    width: 100px;
+    height: 40px;
+    background-color: #EC187B;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: right;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    
+}

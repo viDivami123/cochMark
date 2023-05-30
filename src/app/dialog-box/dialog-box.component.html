@@ -1,0 +1,17 @@
+<div [ngClass]="visiblity=='hidden'?'hidden':'dialog'">
+<p class="dialogHeading">
+  <img src="assets/cochIcon.png" alt=""><label>{{DialogHeader}}</label>
+</p>
+<p class="dialogPara">
+    This is your default landing screen where you will see a brief information about Order Deliveries, Suppliers, Payments and Inventory
+</p>
+<div class="dialogButtonGroup">
+    <span (click)="dismiss()">Dismiss</span>
+    <div class="pagination">
+        <img src="assets/right.png" (click)="previous()" class="previous"/>
+        <label>{{step}} of {{totalSidebarItems}}</label>
+         <img src="assets/left.png" (click)="next()" class="next"/>
+    </div>
+  
+</div>
+</div>

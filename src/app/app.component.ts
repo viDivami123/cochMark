@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { sideBarItems } from './constants';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cochMark';
+  public DialogHeaders = sideBarItems;
+  
+  public step = 1;
+
+  public changeStep(value:any){
+    this.step = value;
+
+  }
 }
